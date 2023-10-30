@@ -7,7 +7,7 @@ namespace PetStore
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Press 1 to add a product");
+            Console.WriteLine("Press 1 to add cat food or 2 to add a dog leash");
             Console.WriteLine("Type 'exit' to quit");
 
             string userInput = Console.ReadLine();
@@ -38,8 +38,30 @@ namespace PetStore
 
                     Console.Write(JsonSerializer.Serialize(newCatFood));
                     Console.WriteLine($"Added cat food {newCatFood.Name} with a price of {newCatFood.Price} a weight of {newCatFood.WeightPounds} which is '{newCatFood.Description}'. It is kitten food: {newCatFood.KittenFood}");
+                } else if (userInput == "2") 
+                {
+                    DogLeash newDogLeash = new DogLeash();
+
+                    Console.Write("Please name your dog leash: ");
+                    newDogLeash.Name = Console.ReadLine();
+
+                    Console.Write("Please give your dog leash a price using only numbers: ");
+                    newDogLeash.Price = decimal.Parse(Console.ReadLine());
+
+                    Console.Write("Please give the number of dog leashes in stock: ");
+                    newDogLeash.Quantity = int.Parse(Console.ReadLine());
+
+                    Console.Write("Please write a description for your leash: ");
+                    newDogLeash.Description = Console.ReadLine();
+
+                    Console.Write("Please state how long your dog leash is in inches using only numbers: ");
+                    newDogLeash.LengthInches = int.Parse(Console.ReadLine());
+
+                    Console.Write("Please state what material your dog leash is made of: ");
+                    newDogLeash.Material = Console.ReadLine();
+
                 }
-                Console.WriteLine("Press 1 to add a product");
+                Console.WriteLine("Press 1 to add a cat food or 2 to add a dog leash");
                 Console.WriteLine("Type 'exit' to quit");
                 userInput = Console.ReadLine();
             }
