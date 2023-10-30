@@ -1,0 +1,14 @@
+D:\Coding\Code KY\C# Getting Started\Pet Store\Pet Store\bin\Debug\net7.0\Pet Store.exe
+D:\Coding\Code KY\C# Getting Started\Pet Store\Pet Store\bin\Debug\net7.0\Pet Store.deps.json
+D:\Coding\Code KY\C# Getting Started\Pet Store\Pet Store\bin\Debug\net7.0\Pet Store.runtimeconfig.json
+D:\Coding\Code KY\C# Getting Started\Pet Store\Pet Store\bin\Debug\net7.0\Pet Store.dll
+D:\Coding\Code KY\C# Getting Started\Pet Store\Pet Store\bin\Debug\net7.0\Pet Store.pdb
+D:\Coding\Code KY\C# Getting Started\Pet Store\Pet Store\obj\Debug\net7.0\Pet Store.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Code KY\C# Getting Started\Pet Store\Pet Store\obj\Debug\net7.0\Pet Store.AssemblyInfoInputs.cache
+D:\Coding\Code KY\C# Getting Started\Pet Store\Pet Store\obj\Debug\net7.0\Pet Store.AssemblyInfo.cs
+D:\Coding\Code KY\C# Getting Started\Pet Store\Pet Store\obj\Debug\net7.0\Pet Store.csproj.CoreCompileInputs.cache
+D:\Coding\Code KY\C# Getting Started\Pet Store\Pet Store\obj\Debug\net7.0\Pet Store.dll
+D:\Coding\Code KY\C# Getting Started\Pet Store\Pet Store\obj\Debug\net7.0\refint\Pet Store.dll
+D:\Coding\Code KY\C# Getting Started\Pet Store\Pet Store\obj\Debug\net7.0\Pet Store.pdb
+D:\Coding\Code KY\C# Getting Started\Pet Store\Pet Store\obj\Debug\net7.0\Pet Store.genruntimeconfig.cache
+D:\Coding\Code KY\C# Getting Started\Pet Store\Pet Store\obj\Debug\net7.0\ref\Pet Store.dll
