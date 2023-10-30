@@ -60,6 +60,7 @@ namespace PetStore
                     Console.Write("Please state what material your dog leash is made of: ");
                     newDogLeash.Material = Console.ReadLine();
 
+                    Console.WriteLine($"Added new dog leash {newDogLeash.Name}, with a price of {newDogLeash.Price}, a length in inches of {newDogLeash.LengthInches}, made of {newDogLeash.Material}. It is a '{newDogLeash.Description}'. There are currently {newDogLeash.Quantity} in stock.");
                 }
                 Console.WriteLine("Press 1 to add a cat food or 2 to add a dog leash");
                 Console.WriteLine("Type 'exit' to quit");
